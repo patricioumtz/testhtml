@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<!-- BEGIN GCR Opt-in Module Code -->
+
+<script src="https://apis.google.com/js/platform.js?onload=renderOptIn"
+
+async defer>
+
+</script>
+
+<script>
+
+window.renderOptIn = function() {
+
+window.gapi.load('surveyoptin', function() {
+
+window.gapi.surveyoptin.render(
+
+{
+
+// REQUIRED
+
+"merchant_id": "5803448567",
+
+"order_id": "00000145",
+
+"email": "patricioumtz@gmail.com",
+
+"delivery_country": "mx",
+
+"estimated_delivery_date": "2026-10-01",
+
+});
+
+});
+
+}
+
+</script>
+
+<!-- END GCR Opt-in Module Code →
+
+</body>
+</html>
